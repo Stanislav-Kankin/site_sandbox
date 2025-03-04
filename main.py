@@ -11,4 +11,4 @@ async def read_root(request: Request):
 
 @app.post("/greet/", response_class=HTMLResponse)
 async def greet_user(request: Request, name: str = Form(...)):
-    return templates.TemplateResponse("index.html", {"request": request, "message": f"Привет, {name}!"})
+    return templates.TemplateResponse("greet.html", {"request": request, "message": f"Привет,!"})
