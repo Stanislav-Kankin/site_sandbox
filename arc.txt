@@ -1,0 +1,27 @@
+site_sandbox/
+├── venv/
+├── templates/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── db/
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── session.py
+│   │   └── models.py
+│   ├── crud/
+│   │   ├── __init__.py
+│   │   └── notes.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   └── notes.py
+│   └── api/
+│       ├── __init__.py
+│       └── notes.py
+├── requirements.txt
+└── alembic/
+    ├── env.py
+    ├── README
+    ├── script.py.mako
+    └── versions/
